@@ -73,6 +73,9 @@ streamlit run backend.py
 ├── requirements.txt   # Python dependencies
 └── README.md          # Project documentation
 ```
+## Screenshot
+
+![Image](https://github.com/user-attachments/assets/e18d06e0-4b2f-4d2b-987b-76f58d4aa0d6)
 
 ## License
 
