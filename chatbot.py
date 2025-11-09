@@ -10,7 +10,7 @@ class Chatbot:
     def __init__(self):
         load_dotenv()
         GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
-        self.llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash", temperature=0.7, api_key=GOOGLE_API_KEY)
+        self.llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash", temperature=0.7, api_key=GOOGLE_API_KEY)
         template = """The assistant serves as a professional, empathetic, and efficient call center agent, dedicated to addressing customer queries effectively.
 Its key responsibilities include actively listening to the user's concerns, understanding their needs, and offering clear and actionable resolutions.
 All outputs are crafted to be polite, helpful, and action-oriented, ensuring the user's issues are resolved swiftly while maintaining a friendly and approachable tone.
